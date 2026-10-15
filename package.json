@@ -1,0 +1,22 @@
+{
+  "name": "docex",
+  "version": "0.1.0",
+  "description": "Quiet, persistent Codex conversations inside Google Docs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navkul/docex.git"
+  },
+  "homepage": "https://github.com/navkul/docex#readme",
+  "bugs": "https://github.com/navkul/docex/issues",
+  "type": "module",
+  "bin": { "docex": "src/cli.js" },
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test test/*.test.js",
+    "smoke": "node scripts/smoke.js"
+  },
+  "files": ["src", "README.md"],
+  "license": "MIT",
+  "private": true
+}
